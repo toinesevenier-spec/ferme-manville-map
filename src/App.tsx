@@ -15,7 +15,7 @@ import GeoRasterLayer from "georaster-layer-for-leaflet";
 // ---- CONFIG ----
 const STORAGE_KEY = "maraichage_data_ts_v3";
 // 🔗 Remplace ici par ton URL GeoTIFF
-const TIFF_URL = "https://github.com/toinesevenier-spec/ferme-manville-map/blob/main/98622.tif";
+const TIFF_URL = "https://github.com/toinesevenier-spec/ferme-manville-map/blob/main/public/98622.tif";
 
 // ---- TYPES ----
 type LineMeta = {

@@ -1,31 +1,29 @@
 {
-  "name": "maraichage-tsx",
+  "name": "ferme-manville-map",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "leaflet": "1.9.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-leaflet": "4.2.1",
-    "georaster": "1.6.0",
-    "georaster-layer-for-leaflet": "4.1.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "georaster": "^1.6.0",
+    "georaster-layer-for-leaflet": "^4.1.2"
   },
   "devDependencies": {
-    "typescript": "^5.5.0",
-    "@types/leaflet": "^1.9.13",
     "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7"
+    "@types/react-dom": "^18.2.7",
+    "@types/leaflet": "^1.9.13",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.0.0",
+    "gh-pages": "^6.0.0"
   }
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "deploy": "gh-pages -d dist"
-  }  
 }
